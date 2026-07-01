@@ -15,6 +15,7 @@ public class LoginPage {
 
     public void enterUsername(String username){
         driver.findElement(usernameField).sendKeys((username));
+        System.out.println("Username entered: " + username);
     }
 
     public void enterPassword(String password){
